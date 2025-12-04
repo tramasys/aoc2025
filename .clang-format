@@ -1,0 +1,64 @@
+BasedOnStyle: LLVM
+Language: Cpp
+Standard: Latest
+
+# --- layout / indentation ---
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ContinuationIndentWidth: 4
+ColumnLimit: 100
+NamespaceIndentation: All
+IndentCaseLabels: true
+AccessModifierOffset: -4
+
+# --- braces & control flow ---
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortBlocksOnASingleLine: Never
+AllowShortEnumsOnASingleLine: false
+
+# --- spaces ---
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpacesInAngles:  false
+SpaceAfterCStyleCast: true
+SpacesBeforeTrailingComments: 1
+
+# --- pointers / references ---
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+# --- includes ---
+SortIncludes: true
+IncludeBlocks: Regroup
+
+# --- formatting behavior ---
+ReflowComments: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+AllowAllArgumentsOnNextLine: true
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: true
+AlignTrailingComments: true
+
+# --- lambdas / modern bits ---
+LambdaBodyIndentation: Signature
+SpacesInContainerLiterals: false
+
+# --- macros / preprocessor ---
+IndentPPDirectives: AfterHash
+SpaceBeforeParensOptions:
+  AfterControlStatements: true
+  AfterFunctionDefinitionName: false
+  AfterFunctionDeclarationName: false
+  AfterOverloadedOperator: false
+  BeforeNonEmptyParentheses: false
