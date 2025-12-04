@@ -1,6 +1,6 @@
 # AoC 2025 / C++
 
-avg randandalg lecture experience
+avg randandalg lecture experience / code is straight assss
 
 ## Build
 ```bash
